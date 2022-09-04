@@ -1,0 +1,39 @@
+{
+      // EDITOR
+      "editor.codeActionsOnSave": {
+            "source.fixAll": true
+      },
+
+      "editor.formatOnSave": true,
+      "editor.tabSize": 6,
+
+      // ESLINT
+      "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+      "eslint.format.enable": true,
+      "eslint.validate": ["typescript"],
+
+      // PRETTIER
+      "[html]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+
+      "[json]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+
+      "[jsonc]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+
+      // PROJECT
+      "files.exclude": {
+            ".eslintrc.js": true,
+            ".prettierrc.js": true,
+            "node_modules": true,
+            "tsconfig.json": true,
+            "yarn.lock": true
+      },
+
+      // TYPESCRIPT
+      "typescript.preferences.importModuleSpecifier": "non-relative"
+}
